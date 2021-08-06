@@ -1,0 +1,17 @@
+.container {
+  margin-top: 150px;
+  width: 600px;
+  height: 800px;
+  background-color: #f2eecb;
+  border-radius: 4px;
+  padding: 32px;
+}
+
+.frame {
+  border: 1px solid var(--main-black-color);
+  height: 100%;
+
+  /* arah item didalam frame selanjutnya dalam bentuk kolom */
+  display: flex;
+  flex-direction: column;
+}

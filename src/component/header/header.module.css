@@ -1,0 +1,18 @@
+.header {
+  display: flex;
+  /* mengatur layout item */
+  align-items: flex-start;
+}
+
+.headerTitle {
+  /* flex: 1; */
+  width: 52%;
+  text-align: center;
+  font-family: "Homemade Apple", sans-serif;
+  font-size: 3.2rem;
+  text-transform: lowercase;
+  color: var(--main-black-color);
+
+  /* yang beda, supaya ada jarak ke padding atas */
+  /* padding-top: 20px; */
+}

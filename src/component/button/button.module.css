@@ -1,0 +1,45 @@
+/* karena module ubah penamaan jadi camelCase lalu instal library classname */
+
+.warnaMerah {
+  color: var(--main-red-color);
+}
+
+.warnaHitam {
+  color: var(--main-black-color);
+}
+
+.headerBtn {
+  width: 24%;
+  font-size: 1.8rem;
+  font-family: "Bungee", sans-serif;
+  cursor: pointer;
+
+  padding: 16px;
+  /* yang beda, jarak ke border */
+  /* padding-top: 10px;
+    padding-left: 24px;
+    padding-right: 24px; */
+
+  background-color: unset;
+  border: unset;
+  outline: unset;
+}
+
+.headerBtn .warnaMerah:active {
+  text-shadow: 1px 1px 2px var(--main-black-color);
+}
+.headerBtn .warnaHitam:active {
+  text-shadow: 1px 1px 2px var(--main-black-color);
+}
+
+.add-button .warna-hitam:active {
+  text-shadow: 1px 1px 2px var(--main-black-color);
+}
+
+.alignLeft {
+  text-align: left;
+}
+
+.alignRight {
+  text-align: right;
+}
